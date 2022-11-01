@@ -81,7 +81,7 @@ export const SplitText = memo(
   }
 );
 
-const useStaggerAnimation = ({
+export const useStaggerAnimation = ({
   enabled,
   targets,
   onComplete,
